@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jaredengler.com/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/jaredengler.com/static/js/main.aa8c28dd.chunk.js",
+    "main.js.map": "/jaredengler.com/static/js/main.aa8c28dd.chunk.js.map",
+    "runtime-main.js": "/jaredengler.com/static/js/runtime-main.64764cf7.js",
+    "runtime-main.js.map": "/jaredengler.com/static/js/runtime-main.64764cf7.js.map",
+    "static/js/2.7eb4cf2a.chunk.js": "/jaredengler.com/static/js/2.7eb4cf2a.chunk.js",
+    "static/js/2.7eb4cf2a.chunk.js.map": "/jaredengler.com/static/js/2.7eb4cf2a.chunk.js.map",
+    "static/js/3.40a73b04.chunk.js": "/jaredengler.com/static/js/3.40a73b04.chunk.js",
+    "static/js/3.40a73b04.chunk.js.map": "/jaredengler.com/static/js/3.40a73b04.chunk.js.map",
+    "index.html": "/jaredengler.com/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/jaredengler.com/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.7eb4cf2a.chunk.js.LICENSE.txt": "/jaredengler.com/static/js/2.7eb4cf2a.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/jaredengler.com/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64764cf7.js",
+    "static/js/2.7eb4cf2a.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.aa8c28dd.chunk.js"
+  ]
+}
