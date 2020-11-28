@@ -2,6 +2,7 @@
   "name": "jaredengler.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lagooned.github.io/jaredengler.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
