@@ -7,3 +7,9 @@ test('renders linkedin link', () => {
   const linkedInLinkElement = screen.getByText(/linkedin/i);
   expect(linkedInLinkElement).toBeInTheDocument();
 });
+
+test('renders jaredengler text', () => {
+  render(<App />);
+  const jaredEnglerText = screen.getByText(/jaredengler/i);
+  expect(jaredEnglerText).toBeInTheDocument();
+});
