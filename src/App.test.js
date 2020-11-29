@@ -13,3 +13,9 @@ test('renders jared.engler text', () => {
   const jaredEnglerText = screen.getByText(/jared.engler/i);
   expect(jaredEnglerText).toBeInTheDocument();
 });
+
+test('renders image of me', () => {
+  render(<App />);
+  const jaredEnglerImage = screen.getByAltText('logo');
+  expect(jaredEnglerImage).toBeInTheDocument();
+});
