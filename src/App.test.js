@@ -8,8 +8,8 @@ test('renders linkedin link', () => {
   expect(linkedInLinkElement).toBeInTheDocument();
 });
 
-test('renders jaredengler text', () => {
+test('renders jared.engler text', () => {
   render(<App />);
-  const jaredEnglerText = screen.getByText(/jaredengler/i);
+  const jaredEnglerText = screen.getByText(/jared.engler/i);
   expect(jaredEnglerText).toBeInTheDocument();
 });
