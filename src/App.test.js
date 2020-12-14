@@ -23,8 +23,8 @@ test('renders image of me', () => {
 
 test('renders gihub link', () => {
   render(<App />);
-  const gihubLinkElement = screen.getByText(/github/i);
-  expect(gihubLinkElement).toBeInTheDocument();
+  const githubLinkElement = screen.getByText(/github/i);
+  expect(githubLinkElement).toBeInTheDocument();
 });
 
 test('renders email link', () => {
