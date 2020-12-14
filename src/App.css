@@ -38,9 +38,6 @@
 .social-links li {
   font-size: calc(10px + 1.5vmin);
   display: inline;
-}
-
-.social-links li {
   margin-right: 0.5em;
   margin-left: 0.5em;
 }
