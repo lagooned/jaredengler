@@ -26,3 +26,9 @@ test('renders gihub link', () => {
   const gihubLinkElement = screen.getByText(/github/i);
   expect(gihubLinkElement).toBeInTheDocument();
 });
+
+test('renders email link', () => {
+  render(<App />);
+  const emailLinkElement = screen.getByText(/email/i);
+  expect(emailLinkElement).toBeInTheDocument();
+});

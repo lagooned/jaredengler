@@ -24,6 +24,14 @@ function App() {
                 github
             </a>
           </li>
+          <li>
+            <a className="social-link"
+                href='&#109;ailto&#58;%6A%61re%&#54;&#52;&#46;l&#105;%74%6&#53;&#64;gma&#37;6&#57;%6C&#46;c&#111;%6D'
+                target="_blank"
+                rel="noopener noreferrer">
+                email
+            </a>
+          </li>
         </ul>
       </header>
     </div>
