@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/jaredengler/static/css/main.89c74cb1.chunk.css",
-    "main.js": "/jaredengler/static/js/main.d65db16b.chunk.js",
-    "main.js.map": "/jaredengler/static/js/main.d65db16b.chunk.js.map",
+    "main.js": "/jaredengler/static/js/main.72e6de9f.chunk.js",
+    "main.js.map": "/jaredengler/static/js/main.72e6de9f.chunk.js.map",
     "runtime-main.js": "/jaredengler/static/js/runtime-main.a91f6e85.js",
     "runtime-main.js.map": "/jaredengler/static/js/runtime-main.a91f6e85.js.map",
-    "static/js/2.4644467d.chunk.js": "/jaredengler/static/js/2.4644467d.chunk.js",
-    "static/js/2.4644467d.chunk.js.map": "/jaredengler/static/js/2.4644467d.chunk.js.map",
+    "static/js/2.d838fc8e.chunk.js": "/jaredengler/static/js/2.d838fc8e.chunk.js",
+    "static/js/2.d838fc8e.chunk.js.map": "/jaredengler/static/js/2.d838fc8e.chunk.js.map",
     "static/js/3.35539b75.chunk.js": "/jaredengler/static/js/3.35539b75.chunk.js",
     "static/js/3.35539b75.chunk.js.map": "/jaredengler/static/js/3.35539b75.chunk.js.map",
     "index.html": "/jaredengler/index.html",
     "static/css/main.89c74cb1.chunk.css.map": "/jaredengler/static/css/main.89c74cb1.chunk.css.map",
-    "static/js/2.4644467d.chunk.js.LICENSE.txt": "/jaredengler/static/js/2.4644467d.chunk.js.LICENSE.txt",
+    "static/js/2.d838fc8e.chunk.js.LICENSE.txt": "/jaredengler/static/js/2.d838fc8e.chunk.js.LICENSE.txt",
     "static/media/me-centered.816332ce.png": "/jaredengler/static/media/me-centered.816332ce.png"
   },
   "entrypoints": [
     "static/js/runtime-main.a91f6e85.js",
-    "static/js/2.4644467d.chunk.js",
+    "static/js/2.d838fc8e.chunk.js",
     "static/css/main.89c74cb1.chunk.css",
-    "static/js/main.d65db16b.chunk.js"
+    "static/js/main.72e6de9f.chunk.js"
   ]
 }
