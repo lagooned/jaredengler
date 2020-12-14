@@ -1,4 +1,5 @@
 
+import { test, expect } from '@jest/globals';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
@@ -18,4 +19,10 @@ test('renders image of me', () => {
   render(<App />);
   const jaredEnglerImage = screen.getByAltText('logo');
   expect(jaredEnglerImage).toBeInTheDocument();
+});
+
+test('renders gihub link', () => {
+  render(<App />);
+  const gihubLinkElement = screen.getByText(/github/i);
+  expect(gihubLinkElement).toBeInTheDocument();
 });
