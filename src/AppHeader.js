@@ -1,6 +1,6 @@
 
 import { Component } from 'react'
-import logo from './img/me-centered.png'
+import logo from './img/me-centered-better.png'
 import SocialLinks from './SocialLinks'
 
 class AppHeader extends Component {
