@@ -18,16 +18,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(26px + 2vmin);
-  color: white;
 }
 
 .App-header h1 {
   color: white;
-  margin-top: .5vmin;
-  margin-bottom: .5vmin;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
   margin-left: 1em;
   margin-right: 1em;
+  font-size: calc(10vmin);
+  color: white;
 }
 
 .social-links {
@@ -38,7 +38,7 @@
 }
 
 .social-links li {
-  font-size: calc(10px + 1.5vmin);
+  font-size: calc(3vmin);
   display: inline;
   margin-right: 0.5em;
   margin-left: 0.5em;
