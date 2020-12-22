@@ -32,3 +32,9 @@ test('renders email link', () => {
   const emailLinkElement = screen.getByText(/email/i);
   expect(emailLinkElement).toBeInTheDocument();
 });
+
+test('renders blog link', () => {
+  render(<App />);
+  const blogLinkElement = screen.getByText(/blog/i);
+  expect(blogLinkElement).toBeInTheDocument();
+});

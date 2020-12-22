@@ -29,6 +29,14 @@ class SocialLinks extends Component {
             email
         </a>
       </li>
+      <li>
+        <a className="social-link"
+            href='https://lagooned.github.io/blog'
+            target="_blank"
+            rel="noopener noreferrer">
+            blog
+        </a>
+      </li>
     </ul>
   }
 
