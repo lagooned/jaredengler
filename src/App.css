@@ -22,18 +22,18 @@
 
 .App-header h1 {
   color: white;
-  margin-top: 3vmin;
+  margin-top: 1vmin;
   margin-bottom: 3vmin;
   margin-left: 1em;
   margin-right: 1em;
-  font-size: calc(10vmin);
+  font-size: calc(8.5vmin);
   color: white;
 }
 
 .social-links {
   list-style-type: none;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 1em;
   padding: 0;
 }
 
@@ -46,4 +46,13 @@
 
 .social-link {
   color: #61dafb;
+}
+
+hr.fancy-hr {
+  width: 34%;
+  border: 0;
+  height: 2px;
+  margin-top: -0.5em;
+  margin-bottom: 1.5em;
+  background-image: linear-gradient(to right, rgba(97,218,251,0.1), rgba(197,218,251,1), rgba(97,218,251,0.1));
 }

@@ -9,6 +9,7 @@ class AppHeader extends Component {
     return <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>jared.engler</h1>
+      <hr className="fancy-hr"/>
       <SocialLinks />
     </header>
   }
