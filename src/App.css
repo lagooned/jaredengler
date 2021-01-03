@@ -4,10 +4,10 @@
 }
 
 .App-logo {
-  width: 40vmin;
-  height: 40vmin;
+  width: 18vmin;
+  height: 18vmin;
   border-radius: 50%;
-  border: .67vmin solid #61DAFB;
+  border: .34vmin solid #61DAFB;
   /* filter: drop-shadow(.5vmin .5vmin 0px #61DAFB); */
 }
 
