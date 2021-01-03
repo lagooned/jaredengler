@@ -11,7 +11,7 @@ test('renders linkedin link', () => {
 
 test('renders jared.engler text', () => {
   render(<App />);
-  const jaredEnglerText = screen.getByText(/jared.engler/i);
+  const jaredEnglerText = screen.getByText(/jared\.engler/i);
   expect(jaredEnglerText).toBeInTheDocument();
 });
 
@@ -37,4 +37,16 @@ test('renders blog link', () => {
   render(<App />);
   const blogLinkElement = screen.getByText(/blog/i);
   expect(blogLinkElement).toBeInTheDocument();
+});
+
+test('renders hr', () => {
+  render(<App />);
+  const hr = screen.getByRole("separator");
+  expect(hr).toBeInTheDocument();
+});
+
+test('renders copyright', () => {
+  render(<App />);
+  const copy = screen.getByText(/jared engler .* twenty twenty-.*/i);
+  expect(copy).toBeInTheDocument();
 });
