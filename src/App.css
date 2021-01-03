@@ -56,3 +56,7 @@ hr.fancy-hr {
   margin-bottom: 1.5em;
   background-image: linear-gradient(to right, rgba(97,218,251,0.1), rgba(197,218,251,1), rgba(97,218,251,0.1));
 }
+
+.copy {
+  color: white;
+}

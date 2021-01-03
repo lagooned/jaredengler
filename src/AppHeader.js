@@ -11,6 +11,7 @@ class AppHeader extends Component {
       <h1>jared.engler</h1>
       <hr className="fancy-hr"/>
       <SocialLinks />
+      <p className="copy">jared engler &copy; twenty twenty-one</p>
     </header>
   }
 
