@@ -39,7 +39,7 @@ test('renders blog link', () => {
   expect(blogLinkElement).toBeInTheDocument();
 });
 
-test('renders hr', () => {
+test('renders separator', () => {
   render(<App />);
   const hr = screen.getByRole("separator");
   expect(hr).toBeInTheDocument();
@@ -47,6 +47,6 @@ test('renders hr', () => {
 
 test('renders copyright', () => {
   render(<App />);
-  const copy = screen.getByText(/jared engler .* twenty twenty-.*/i);
+  const copy = screen.getByText(/jared.*engler.*202.*/i);
   expect(copy).toBeInTheDocument();
 });

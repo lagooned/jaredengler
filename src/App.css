@@ -23,7 +23,7 @@
 .App-header h1 {
   color: white;
   margin-top: 1vmin;
-  margin-bottom: 3vmin;
+  margin-bottom: 1vmin;
   margin-left: 1em;
   margin-right: 1em;
   font-size: calc(8.5vmin);
@@ -32,7 +32,7 @@
 
 .social-links {
   list-style-type: none;
-  margin-top: 0;
+  margin-top: 1em;
   margin-bottom: 1em;
   padding: 0;
 }
@@ -49,14 +49,15 @@
 }
 
 hr.fancy-hr {
-  width: 34%;
+  width: 25%;
   border: 0;
   height: 2px;
-  margin-top: -0.5em;
-  margin-bottom: 1.5em;
-  background-image: linear-gradient(to right, rgba(97,218,251,0.1), rgba(197,218,251,1), rgba(97,218,251,0.1));
+  margin-top: 3.5vmin;
+  margin-bottom: 3.5vmin;
+  background-image: linear-gradient(to right, rgba(97,218,251,0.1), rgba(197,218,251,0.3), rgba(97,218,251,0.1));
 }
 
 .copy {
   color: grey;
+  font-size: calc(2vmin);
 }
