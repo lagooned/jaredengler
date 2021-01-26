@@ -37,6 +37,14 @@ class SocialLinks extends Component {
             blog
         </a>
       </li>
+      <li>
+        <a className="social-link"
+            href='https://lagooned.github.io/jaredengler/resume.pdf'
+            target="_blank"
+            rel="noopener noreferrer">
+            resume
+        </a>
+      </li>
     </ul>
   }
 

@@ -50,3 +50,9 @@ test('renders copyright', () => {
   const copy = screen.getByText(/jared.*engler.*202.*/i);
   expect(copy).toBeInTheDocument();
 });
+
+test('renders resume link', () => {
+  render(<App />);
+  const resumeLinkElement = screen.getByText(/resume/i);
+  expect(resumeLinkElement).toBeInTheDocument();
+});
