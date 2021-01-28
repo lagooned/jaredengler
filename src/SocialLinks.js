@@ -7,8 +7,7 @@ class SocialLinks extends Component {
     return <ul className="social-links">
       <li>
         <a className="social-link"
-            href="https://www.linkedin.com/in/jaredengler/"
-            target="_blank"
+            href="https://www.linkedin.com/in/jaredengler"
             rel="noopener noreferrer">
             linkedin
         </a>
@@ -16,7 +15,6 @@ class SocialLinks extends Component {
       <li>
         <a className="social-link"
             href="https://www.github.com/lagooned"
-            target="_blank"
             rel="noopener noreferrer">
             github
         </a>
@@ -24,7 +22,6 @@ class SocialLinks extends Component {
       <li>
         <a className="social-link"
             href='&#109;ailto&#58;%6A%61re%&#54;&#52;&#46;l&#105;%74%6&#53;&#64;gma&#37;6&#57;%6C&#46;c&#111;%6D'
-            target="_blank"
             rel="noopener noreferrer">
             email
         </a>
@@ -39,7 +36,6 @@ class SocialLinks extends Component {
       <li>
         <a className="social-link"
             href='https://lagooned.github.io/jaredengler/resume.pdf'
-            target="_blank"
             rel="noopener noreferrer">
             resume
         </a>
