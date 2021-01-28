@@ -61,3 +61,28 @@ hr.fancy-hr {
   color: grey;
   font-size: calc(2vmin);
 }
+
+@media only screen and (max-width: 600px) {
+
+  .App-logo {
+    width: 40vmin;
+    height: 40vmin;
+  }
+
+  .App-header h1 {
+    font-size: calc(15.5vmin);
+  }
+
+  .social-links li {
+    font-size: calc(4vmin);
+  }
+
+  hr.fancy-hr {
+    width: 50%;
+  }
+
+  .copy {
+    font-size: calc(4vmin);
+  }
+
+}
